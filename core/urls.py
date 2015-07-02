@@ -20,4 +20,5 @@ urlpatterns = [
     #url(r'^admin/', include(admin.site.urls)),
 
      url(r'^$', coreviews.LandingView.as_view()),
+      url(r'location/$', coreviews.LocationListView.as_view()),
 ]
